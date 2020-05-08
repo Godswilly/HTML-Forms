@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
+          integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+
+        <!-- Add icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="Files/style.css" />
+    <title>HTML-Forms</title>
+</head>
+
+<body>
+    <form class="form">
+        <div>
+            <ul>
+                <h1>Create an Intuit account</h1>
+                <p>One account for everything Intuit, including Mint.
+                <a href="#">Learn more</a></p><br>
+
+                <label class = "label" for="email">Email address</label><br>
+                <input class = "input" type="text" id="email" name="email" required><br><br><br>
+
+                <label class = "label" for="tel">Phone (recommended)</label>
+                <br>
+                <input class = "input" type="tel" id="tel" name="tel" readonly="We strongly recommend adding a phone number. This will help verify your account and keep it safe.">
+                <h5>Standard call, messaging or data rates may apply.</h5><br>
+                <label class = "label" for="psw">Password</label><br>
+                <input class = "input" type="password" id="psw" name="psw" required><i class="fas fa-lock-open padlockspan"></i><br><br><br>
+
+                <li class = "button"> <button type="submit"><i class="fas fa-lock"></i>&nbsp; &nbsp;Create Account</button></li>
+
+                <h6>By clicking Create account, you agree to our<a href="#">Terms
+                </a> and have read and acknowledge our <a href="#">Privacy Statement</a>.
+                </h6>
+    
+             </ul>
+        </div>
+    </form>
+
+
+</body>
+</html>
