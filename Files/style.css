@@ -85,8 +85,14 @@ nav {
 .label-info {
   display: inline-block;
 	width: 150px;
+
+  
 	text-align: left;
+
+
 	margin-bottom: 8px;
+
+
 }
 
 
@@ -114,8 +120,9 @@ input:focus {
 }
 
 textarea,
+
 textarea:focus {
-	border-color: #E0E0E0;
+	border-color: #e0e0e0;
 }
 
 label {
@@ -126,6 +133,8 @@ h1 {
 	font-size:  1.6em;
   font-family: Roboto;
 	text-align: center;
+
+
 }
 
 p {
@@ -133,21 +142,27 @@ p {
   font-family: Roboto;
 	text-align: center;
 
+
 }
 
 h5 {
-	font: .6em Roboto;
+	font-size: 0.6em;
+  font-family: Roboto;
 	margin-top: 8px;
   text-align: justify-all;
+
+
 }
+ 
  h6 {
  	font-style: italic;
- 	font: .8em Roboto;
+ 	font-size: 0.8em;
+  font-family: Roboto;
  	text-align: center;
  	line-height: 1.5; 
  }
-
- #learn-more {
+ 
+#learn-more {
  	text-align: center;
  }
 textarea {
