@@ -130,9 +130,9 @@ h5{
 }
  h6{
  	font-style: italic;
- 	font: .95em Roboto;
+ 	font: .8em Roboto;
  	text-align: center;
- 	line-height: 2.5; 
+ 	line-height: 1.5; 
  }
 
  #learn-more {
@@ -144,11 +144,14 @@ textarea {
 	height: 5em;
 }
 
+p, a {
+  text-decoration: none;
+}
 
 button {
 	align-items: center;
 	color: white;
-	height: 50px;
+	height: 40px;
 	width: 300px;
 	background: #3364FF;
 	border: 0px;
