@@ -1,6 +1,6 @@
 
 **Mints Sign Up Clone** <br/>
-This is a project to clone a HTML-Form as part of completing the technical curriculum at Microverse.org
+This is a project to clone Mints sign up HTML-Form as part of completing the technical curriculum at Microverse.org
 
 
 **Built With**
