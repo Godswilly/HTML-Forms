@@ -17,33 +17,77 @@
 </head>
 
 <body>
-    <form class="form">
-        <div>
-            <ul>
+   <main> 
+    <nav>
+    <button id="sign-in-button" class="ius-btn ius-btn-submit">
+      <i class="fas fa-lock"></i> Sign In</button>
+
+    <span class="navigation-column" id="already">Already have an Intuit account?</span>
+    <br>
+    <a class="navigation-column" id="recovery-link" href="#">I forgot my User ID or Password</a>
+  </nav>
+  <div class="logo">
+    <img id="intuit-logo" src="https://i.ibb.co/j5d5KML/intuit-logo.png" alt="">
+  </div>
+  <div class="logos-under">
+    <div>
+      <a href="#"><img src="https://i.ibb.co/Fgp8mrC/mint-logo.png" alt="mint-logo"></a>
+      <a href="#"><img src="https://i.ibb.co/kyxPGM9/quickbooks-logo.png" alt="quickbooks-logo"></a>
+      <a href="#"><img src="https://i.ibb.co/MRgngMk/turbotax-logo.png" alt="turbotax-logo"></a>
+    </div>
+  </div>
+    <div>
+        <form class="form-container">
+            <div>
+                <ul>
                 <h1>Create an Intuit account</h1>
-                <p>One account for everything Intuit, including Mint.
-                <a href="#">Learn more</a></p><br>
+               <p>One account for everything Intuit, including Mint.<br>
+               <a id="learn-more" href="#">Learn more</a></p><br>
+             
+          
 
-                <label class = "label" for="email">Email address</label><br>
-                <input class = "input" type="text" id="email" name="email" required><br><br><br>
+                <label class = "label-info" for="email">Email address</label><br>
+                <input class = "input-info" type="text" id="email" name="email" required><br><br><br>
 
-                <label class = "label" for="tel">Phone (recommended)</label>
+                <label class = "label-info" for="tel">Phone (recommended)</label>
                 <br>
-                <input class = "input" type="tel" id="tel" name="tel" readonly="We strongly recommend adding a phone number. This will help verify your account and keep it safe.">
+                <input class = "input-info" type="tel" id="tel" name="tel">
                 <h5>Standard call, messaging or data rates may apply.</h5><br>
-                <label class = "label" for="psw">Password</label><br>
-                <input class = "input" type="password" id="psw" name="psw" required><i class="fas fa-lock-open padlockspan"></i><br><br><br>
+                <label class = "label-info" for="psw">Password</label><br>
+                <input class = "input-info" type="password" id="psw" name="psw" required><i class="fas fa-lock-open"></i><br><br><br>
 
-                <li class = "button"> <button type="submit"><i class="fas fa-lock"></i>&nbsp; &nbsp;Create Account</button></li>
+                <li class = "btn"> <button type="submit"><i class="fas fa-lock"></i>&nbsp; &nbsp;Create Account</button></li>
+       
 
-                <h6>By clicking Create account, you agree to our<a href="#">Terms
-                </a> and have read and acknowledge our <a href="#">Privacy Statement</a>.
+                <h6>By clicking Create account, you agree to our<a href="#"> Terms
+                </a> and have read and acknowledge our <a href="#"> Privacy Statement</a>.
                 </h6>
     
-             </ul>
-        </div>
+                </ul>
+            </div>
+        
+        <div class="form-footer">
+      <div class="captcha">
+        <span>Invisible reCAPTCHA by Google</span>
+        <a id="privacy-policy" href="https://www.google.com/intl/en/policies/privacy/" target="_blank">Privacy Policy</a>
+        <span>and</span>
+        <a id="captcha-terms" href="https://www.google.com/intl/en/policies/terms/" target="_blank">Terms of Use</a>
+      </div>
+    </div>
     </form>
+    </div>
+</main>
 
+<footer class="footer">
+    <div class="lps">
+      <a href="http://about.intuit.com/legal/" target="_blank">Legal</a>
+      <a href="https://security.intuit.com/privacy/" target="_blank">Privacy</a>
+      <a href="http://security.intuit.com/" target="_blank">Security</a>
+    </div>
+    <span class="copyright">© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</span>
+    <br>
+    <span class="copyright">Terms and conditions, features, support, pricing, and service options subject to change without notice.</span>
+  </footer>
 
 </body>
 </html>

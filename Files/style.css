@@ -1,9 +1,14 @@
 
 
-/*html {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
-  font-size: 50%;
-}*/
+}
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -11,17 +16,64 @@ body {
   font-weight: 3;
   position: relative;
   background: #F5F5F5;
-}
-form{
-	/*center it*/
-	margin: auto;
-	margin-top: 130px;
-	width: 300px;
+  background-color: #eceef1;
 
-	/*outline*/
-	padding: 1em;
-	border: 1px solid #E0E0E0;
-	background: white;
+}
+
+/*navbar*/
+nav {
+  margin-top: 10px;
+}
+
+.navigation-column {
+  float: right;
+  overflow: hidden;
+  margin-right: 20px;
+}
+#already {
+  font-size: 14px;
+  color: #757575;
+}
+
+#recovery-link {
+  text-decoration: none;
+  color: #0077c5;
+  font-size: 14px;
+}
+
+#sign-in-button {
+  margin-right: 20px;
+  float: right;
+  overflow: hidden;
+  color: #fff;
+  height: 35px;
+  width: 100px;
+  background: #0077c5;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+}
+#intuit-logo {
+  display: block;
+  width: 118px;
+  margin: 40px auto 18px;
+  padding-top: 20px;
+}
+
+.logos-under {
+  text-align: center;
+  margin: 15px auto;
+}
+
+
+.form-container {
+  background-color: #fff;
+  margin: auto;
+  border: 1px solid #c7c7c7;
+  width: 380px;
+  text-align: center;
+  color: #4c4c4c;
+  font-family: 'Nunito Sans', sans-serif;
+  padding-top: 30px;
 }
 
 ul{
@@ -30,7 +82,7 @@ ul{
 	margin: 0;
 }
 
-label {
+.label-info {
 	/*make size uniform and align rigth*/
 	display: inline-block;
 	width: 150px;
@@ -50,13 +102,17 @@ input, textarea {
 	border: 1px solid #E0E0E0;
 }
 
-.input{
+.input-info{
 	height: 30px;
 }
 
 input:focus,
 textarea:focus {
 	border-color: #E0E0E0;
+}
+
+label {
+  position: relative;
 }
 h1{
 	font: 1.6em Roboto;
@@ -65,16 +121,22 @@ h1{
 p{
 	font: .9em Roboto;
 	text-align: center;
+
 }
 h5{
 	font: .6em Roboto;
 	margin-top: 8px;
+  text-align: justify-all;
 }
  h6{
  	font-style: italic;
- 	font: .9em Roboto;
+ 	font: .95em Roboto;
  	text-align: center;
  	line-height: 2.5; 
+ }
+
+ #learn-more {
+ 	text-align: center;
  }
 textarea {
 	vertical-align: top;
@@ -86,10 +148,24 @@ textarea {
 button {
 	align-items: center;
 	color: white;
-	height: 30px;
+	height: 50px;
 	width: 300px;
 	background: #3364FF;
 	border: 0px;
+  border-radius: 5px;
+}
+
+.fa-lock-open {
+  position: absolute;
+  top: 35px;
+  right: 8px;
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+  opacity: 0.5;
+  filter: alpha(opacity=50);
 }
 
 .padlockspan {
@@ -99,4 +175,46 @@ button {
         position: relative;
         z-index: 2;
         color: gray;
+}
+
+.form-footer {
+  height: 50px;
+  background-color: #eceef1;
+  text-align: center;
+  font-size: 10px;
+  margin-top: 40px;
+}
+
+.captcha {
+  padding: 20px;
+  color: #757575;
+}
+
+#privacy-policy,
+#captcha-terms {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+footer {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.lps {
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+.lps a {
+  text-decoration: none;
+  color: #505050;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.copyright {
+  color: #505050;
+  font-size: 14px;
 }
