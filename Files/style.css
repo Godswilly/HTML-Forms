@@ -137,7 +137,7 @@ label {
 }
 
 h1 {
-	font-size:  1.6em;
+  font-size: 1.6em;
   text-align: center;
 }
 
@@ -155,7 +155,7 @@ h5 {
 h6 {
   font-style: italic;
   font-size: 0.8em;
-  text-align: center;  
+  text-align: center;
   line-height: 2px;
 }
 
