@@ -86,7 +86,7 @@ nav {
   display: inline-block;
 	width: 150px;
 
-  
+
 	text-align: left;
 
 
@@ -123,6 +123,9 @@ textarea,
 
 textarea:focus {
 	border-color: #e0e0e0;
+  vertical-align: top;
+
+  height: 5em;
 }
 
 label {
@@ -165,11 +168,7 @@ h5 {
 #learn-more {
  	text-align: center;
  }
-textarea {
-	vertical-align: top;
 
-	height: 5em;
-}
 
 .input-num {
   text-align: left;
