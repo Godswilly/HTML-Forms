@@ -63,73 +63,57 @@ nav {
   margin: 15px auto;
 }
 
-
 .form-container {
-  background-color: #fff;
-  margin: auto;
-  border: 1px solid #c7c7c7;
-  width: 380px;
-  text-align: center;
-  color: #4c4c4c;
-  font-family: 'Nunito Sans', sans-serif;
-  padding-top: 30px;
+    background-color: #fff;
+    margin: auto;
+    border: 1px solid #c7c7c7;
+    width: 380px;
+    text-align: center;
+    color: #4c4c4c;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-top: 30px;
 }
 
 .form-action {
-	list-style: none;
-	padding: 0;
-	margin: 0;
+	  list-style: none;
+	  padding: 0;
+	  margin: 0;
 }
 
 
 .label-info {
-  display: inline-block;
-	
+    display: inline-block;
+    width: 150px;
 
-  width: 150px;
-
-
-	text-align: left;
-
-
-	margin-bottom: 8px;
-
+    text-align: left;
+    margin-bottom: 8px;
 
 }
-
-
-input, 
-textarea {
- 
-  font-family: sans-serif;
-  font-size: 1em;
-
-  width: 300px;
-  box-sizing: border-box;
-
-  border: 1px solid #e0e0e0;
-}
-
-
-.input-info {
-	height: 30px;
-}
-
 
 input,
-input:focus {
+textarea{
+   font-family: sans-serif;
+   font-size: 1em;
+   width: 300px;
+   box-sizing: border-box;
+   border: 1px solid #e0e0e0;
+}
+
+.input-info{
+	 height: 30px;
+}
+
+input ,
+input:focus{
   border-color: #e0e0e0;
 }
 
 textarea,
-
-textarea:focus {
-	
-
-  border-color: #e0e0e0;
-  vertical-align: top;
-
-  height: 5em;
+textarea:focus{
+  
+ border-color: #e0e0e0;
+ vertical-align: top;
+ height: 5em;
 }
 
 label {
@@ -174,13 +158,13 @@ a {
 }
 
 button {
-	align-items: center;
-	color: white;
-	height: 40px;
-	width: 300px;
-	background: #3364FF;
-	border: 0px;
-  border-radius: 5px;
+     align-items: center;
+     color: white;
+	   height: 40px;
+	   width: 300px;
+	   background: #3364ff;
+	   border: 0px;
+     border-radius: 5px;
 }
 
 .fa-lock-open {
@@ -194,7 +178,6 @@ button {
   transform: scale(-1, 1);
   opacity: 0.5;
   filter: alpha(opacity=50);
-
 }
 
 .form-footer {
