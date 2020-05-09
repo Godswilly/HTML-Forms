@@ -145,26 +145,23 @@ h1 {
 }
 
 p {
-	font-size: 0.9em;
+  font-size: 0.9em;
   font-family: Roboto;
 	text-align: center;
-
 
 }
 
 h5 {
-
-    font-size: 0.6em;
-    margin-top: 8px;
-    text-align: justify-all;
-    
+  font-size: 0.6em;
+  margin-top: 8px;
+  text-align: justify-all;
 }
 
 h6 {
-    font-style: italic;
-    font-size: 0.8em;
-    text-align: center;    
-    line-height: 2px;
+  font-style: italic;
+  font-size: 0.8em;
+  text-align: center;   
+  line-height: 2px;
 }
 
 #learn-more {
