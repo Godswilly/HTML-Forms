@@ -154,13 +154,11 @@ a {
 }
 
 button {
-      align-items: center;
-      color: white;
-	    height: 40px;
-	    width: 300px;
-	    background: #3364ff;
-	    border: 0;
-      border-radius: 5px;
+  align-items: center;
+  height: 40px;
+  width: 300px;
+  background: #3364ff;
+  border-radius: 5px;
 }
 
 .fa-lock-open {
