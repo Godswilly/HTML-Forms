@@ -161,14 +161,17 @@ h5 {
 
 }
  
- h6 {
+h6 {
  	font-style: italic;
+
+
  	font-size: 0.8em;
-  font-family: Roboto;
+
+  
+  text-align: center;
 
 
- 	text-align: center;
- 	line-height: 1.5;
+ 	line-height: 2px;
 }
 
 #learn-more {
