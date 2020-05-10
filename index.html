@@ -19,23 +19,23 @@
     <body>
         <main> 
             <nav>
-                <button id="sign-in-button" class="ius-btn ius-btn-submit">
+                <button class="sign-in-button">
                 <i class="fas fa-lock"></i>&nbsp; &nbsp; Sign In</button>
 
-                <span class="navigation-column" id="already">Already have an Intuit account?</span>
+                <span class="already">Already have an Intuit account?</span>
                 <br>
-                <a class="navigation-column" id="recovery-link" href="#">I forgot my User ID or Password</a>
+                <a class="recovery-link" href="#">I forgot my User ID or Password</a>
             </nav>
 
             <div class="logo">
-                <img id="intuit-logo" src="https://i.ibb.co/j5d5KML/intuit-logo.png" alt="">
+                <a href="#"><img src="Files/Assets/intuit.PNG" alt=""></a>
             </div>
 
             <div class="logos-under">
                 <div>
-                  <a href="#"><img src="https://i.ibb.co/Fgp8mrC/mint-logo.png" alt="mint-logo"></a>
-                  <a href="#"><img src="https://i.ibb.co/kyxPGM9/quickbooks-logo.png" alt="quickbooks-logo"></a>
-                  <a href="#"><img src="https://i.ibb.co/MRgngMk/turbotax-logo.png" alt="turbotax-logo"></a>
+                  <a href="#"><img src="Files/Assets/mint.PNG" alt="mint-logo"></a>
+                  <a href="#"><img src="Files/Assets/quickbooks.PNG" alt="quickbooks-logo"></a>
+                  <a href="#"><img src="Files/Assets/turbotax.PNG" alt="turbotax-logo"></a>
                 </div>
             </div>
 
@@ -45,12 +45,12 @@
                         <div class="form-action">
                             <h1>Create an Intuit account</h1>
                             <p>One account for everything Intuit, including Mint.<br>
-                            <a id="learn-more" href="#">Learn more</a></p><br>
+                            <a href="#">Learn more</a></p><br>
                              
                           
                             <div class="input-num">
                                 <label  class = "label-info" for="email">Email address</label><br>
-                                <input class = "input-info" type="text" id="email" name="email" required><br><br><br>
+                                <input class = "input-info" type="email" id="email" name="email" required><br><br><br>
 
                                 <label class = "label-info" for="tel">Phone (recommended)</label>
                                 <br>
@@ -63,11 +63,11 @@
                             </div>
 
                                  <button type="submit"><i class="fas fa-lock"></i>&nbsp; &nbsp;Create Account</button>
-                       
-
-                                <h6>By clicking Create account, you agree to our<br><a href="#"> Terms
-                                </a> and have read and acknowledge our <a href="#"> Privacy <br>Statement</a>.
-                                </h6>
+                                 <br><br><br>
+                                 <div class="create-acct">
+                                    <span>By clicking Create Account, you agree to our<br><br><a href="#"> Terms</a>
+                                    <span>and have read and acknowledge our </span> <a href="#"> Privacy <br><br>Statement</a></span>
+                                 </div>
                 
                         </div>
                     </div>
@@ -75,9 +75,9 @@
                     <div class="form-footer">
                         <div class="captcha">
                             <span>Invisible reCAPTCHA by Google</span>
-                            <a id="privacy-policy" href="https://www.google.com/intl/en/policies/privacy/" target="_blank">Privacy Policy</a>
+                            <a class="privacy-policy" href="https://www.google.com/intl/en/policies/privacy/" target="_blank">Privacy Policy</a>
                             <span>and</span>
-                            <a id="captcha-terms" href="https://www.google.com/intl/en/policies/terms/" target="_blank">Terms of Use</a>
+                            <a class="captcha-terms" href="https://www.google.com/intl/en/policies/terms/" target="_blank">Terms of Use</a>
                         </div>
                     </div>
                 </form>

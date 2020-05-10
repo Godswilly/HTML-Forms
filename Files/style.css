@@ -22,24 +22,24 @@ nav {
   margin-top: 10px;
 }
 
-.navigation-column {
+.already {
   float: right;
   overflow: hidden;
   margin-right: 20px;
-}
-
-#already {
   font-size: 14px;
   color: #757575;
 }
 
-#recovery-link {
+.recovery-link {
+  float: right;
+  overflow: hidden;
+  margin-right: 20px;
   text-decoration: none;
   color: #0077c5;
   font-size: 14px;
 }
 
-#sign-in-button {
+.sign-in-button {
   margin-right: 20px;
   float: right;
   overflow: hidden;
@@ -51,7 +51,7 @@ nav {
   border: 1px solid #4c4c4c;
 }
 
-#intuit-logo {
+.logo {
   display: block;
   width: 118px;
   margin: 40px auto 18px;
@@ -132,15 +132,12 @@ h5 {
   text-align: justify-all;
 }
 
-h6 {
+.create-acct {
   font-style: italic;
   font-size: 0.8em;
   text-align: center;
-  line-height: 2px;
-}
-
-#learn-more {
-  text-align: center;
+  letter-spacing: 1px;
+  
 }
 
 .input-num {
@@ -159,6 +156,7 @@ button {
   width: 300px;
   background: #3364ff;
   border-radius: 5px;
+  color: #fff;
 }
 
 .fa-lock-open {
@@ -187,8 +185,8 @@ button {
   color: #757575;
 }
 
-#privacy-policy,
-#captcha-terms {
+.privacy-policy,
+.captcha-terms {
   text-decoration: none;
   color: #0077c5;
 }
