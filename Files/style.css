@@ -175,7 +175,7 @@ a {
   text-decoration: none;
 }
 
-products-text {
+.products-text {
   display: inline-block;
   vertical-align: middle;
   font-family: sans-serif;
