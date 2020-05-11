@@ -61,6 +61,7 @@ nav {
 .logos-under {
   text-align: center;
   margin: 15px auto;
+  justify-content: center;
 }
 
 .form-container {
@@ -145,6 +146,7 @@ h5 {
 }
 
 p,
+
 a {
   text-decoration: none;
 }
