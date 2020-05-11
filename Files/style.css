@@ -174,7 +174,8 @@ h5 {
   margin-left: 30px;
 }
 
-p, a {
+p, 
+a {
   text-decoration: none;
 }
 
